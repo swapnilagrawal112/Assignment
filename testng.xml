@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Assignment_InstaWork" parallel="true">
+  <test name="ExVerifyInstaWork">
+  	<parameter name="browser" value="InternetExplorer">
+  	</parameter>
+    <classes>
+      <class name="Assignment.VerifyInstaWork"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name = "ChVerifyInstaWork">
+  	<parameter name="browser" value="Chrome">
+  	</parameter>
+  	<classes>
+ 		<class name="Assignment.VerifyInstaWork">
+ 		</class> 
+  	</classes>
+  	</test>
+</suite> <!-- Suite -->
